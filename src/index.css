@@ -36,7 +36,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-.button {
+button {
   width: 100%;
   padding: 8px 0;
   border: 1px solid var(--primary);
@@ -46,7 +46,7 @@ code {
   cursor: pointer;
 }
 
-.button:hover {
+button:hover {
   border: 1px solid var(--secondary);
   background-color: var(--secondary);
 }
