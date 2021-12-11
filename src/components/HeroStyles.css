@@ -42,7 +42,7 @@
   margin: 2rem 0 1rem 0;
 }
 
-.hero .used-by .icons i {
+.hero .col-1 .icons i {
   color: var(--grey);
   padding-right: 1rem;
 }
@@ -61,7 +61,7 @@
 }
 
 .hero .col-2 .form-layout {
-  width: 800px;
+  width: 400px;
   margin: auto;
   background-color: #fff;
   border-radius: 6px;
