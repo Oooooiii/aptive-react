@@ -1,11 +1,11 @@
 .contact {
   width: 100%;
   margin: 3rem 0;
+  display: flex;
 }
 
 .contact .container {
   max-width: 1240px;
-  padding: 1rem;
   margin: auto;
   overflow: hidden;
   display: flex;
@@ -21,7 +21,7 @@
   padding: 0.4rem 0;
 }
 
-.contat p {
+.contact .p {
   color: var(--grey);
 }
 
@@ -75,13 +75,16 @@
 .contact form .checkbox {
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 1rem 0;
 }
 
 .contact .checkbox input {
   margin: 0;
   padding-right: 4px;
+}
+
+.contact .checkbox p {
+  flex: 1 0 95%;
 }
 
 @media screen and (max-width: 960px) {
@@ -99,5 +102,9 @@
 
   .contact .col-2 {
     padding: 1rem;
+  }
+
+  .contact .checkbox p {
+    margin-left: 8px;
   }
 }
